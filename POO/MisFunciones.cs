@@ -25,16 +25,16 @@ namespace POO
             return numero;
         }
 
-        public static string LeerOpcion(string msg, int min, int max)
-        {
-            string opcion;
+        //public static string LeerOpcion(string msg, int min, int max)
+        //{
+        //    string opcion;
 
-            do
-            {
-                Console.WriteLine(msg);
-                opcion = Console.ReadLine();
-            } while ();
-            return opcion;
-        }
+        //    //do
+        //    //{
+        //    //    Console.WriteLine(msg);
+        //    //    opcion = Console.ReadLine();
+        //    //} while ();
+        //    return opcion;
+        //}
     }
 }
